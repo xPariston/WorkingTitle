@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "931161909381",
+    "firebase_url": "https://worldx-42819.firebaseio.com",
+    "project_id": "worldx-42819",
+    "storage_bucket": "worldx-42819.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931161909381:android:02c19707f9bb434d",
+        "android_client_info": {
+          "package_name": "com.example.worldx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931161909381-v36chbr2qpq77m6dc3q8k3v2qnqbqfss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.worldx",
+            "certificate_hash": "0893998a8c7e6bcf3c08dce17873e4751f8ee714"
+          }
+        },
+        {
+          "client_id": "931161909381-e7417hb40apv7ti7h1juets8bripua11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTOANG5iDPu9XatGXx1bvaClL3EWG6IL8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931161909381-e7417hb40apv7ti7h1juets8bripua11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

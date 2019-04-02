@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profil"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="My Profil" />
+        <item
+            android:id="@+id/messages"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Messages" />
+        <item
+            android:id="@+id/party"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Party" />
+        <item
+            android:id="@+id/groups"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Groups" />
+    </group>
+
+    <item android:title="Your current Region">
+        <menu>
+            <item
+                android:id="@+id/parliament"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Parliament" />
+            <item
+                android:id="@+id/work"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Work" />
+            <item
+                android:id="@+id/wars"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Wars" />
+            <item
+                android:id="@+id/trade"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Trade" />
+        </menu>
+    </item>
+    <item android:title="World">
+        <menu>
+            <item
+                android:id="@+id/map"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Map" />
+            <item
+                android:id="@+id/forum"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Forum" />
+            <item
+                android:id="@+id/store"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Store" />
+        </menu>
+    </item>
+
+</menu>
