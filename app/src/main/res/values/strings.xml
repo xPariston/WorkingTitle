@@ -111,8 +111,22 @@
     </string>
     <string name="title_activity_profilview">profilview</string>
     <string name="title_activity_skillview">Skillview</string>
+
+
+
     <string name="title_warskill">War</string>
     <string name="title_workskill">Work</string>
     <string name="title_travelskill">Travel</string>
+    <string name="skill_name">Name:</string>
+    <string name="skill_xp">XP:</string>
+    <string name="skill_level">Level:</string>
+    <string name="workskill_Wood">Wood</string>
+    <string name="workskill_Stone">Stone</string>
+    <string name="workskill_Planks">Planks</string>
+    <string name="workskill_Bricks">Bricks</string>
+    <string name="warskill_woodspear">Wooden Spear</string>
+    <string name="warskill_stonethrower">Stone Thrower</string>
+    <string name="travelskill_footspeed">Foot Travel Speed</string>
+    <string name="travelskill_foodstorage">Food Travel Storage</string>
 
 </resources>
