@@ -308,7 +308,7 @@
             </TableLayout>
 
             <Button
-                android:id="@+id/Warskills"
+                android:id="@+id/btn_warskills"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="Warskills"
@@ -369,7 +369,7 @@
             </TableLayout>
 
             <Button
-                android:id="@+id/Workskills"
+                android:id="@+id/btn_workskills"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="Workskills"
@@ -430,7 +430,7 @@
             </TableLayout>
 
             <Button
-                android:id="@+id/Travelskills"
+                android:id="@+id/btn_travelskills"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="Travelskills"

@@ -110,4 +110,9 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="title_activity_profilview">profilview</string>
+    <string name="title_activity_skillview">Skillview</string>
+    <string name="title_warskill">War</string>
+    <string name="title_workskill">Work</string>
+    <string name="title_travelskill">Travel</string>
+
 </resources>

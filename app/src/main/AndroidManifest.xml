@@ -14,6 +14,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Skillview"
+            android:label="@string/title_activity_skillview"
+            android:parentActivityName=".profilview">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.worldx.profilview" />
+        </activity>
+        <activity
             android:name=".profilview"
             android:label="@string/title_activity_profilview"
             android:parentActivityName=".MainScreen"
