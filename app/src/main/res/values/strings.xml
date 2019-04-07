@@ -113,7 +113,6 @@
     <string name="title_activity_skillview">Skillview</string>
 
 
-
     <string name="title_warskill">War</string>
     <string name="title_workskill">Work</string>
     <string name="title_travelskill">Travel</string>
@@ -128,5 +127,6 @@
     <string name="warskill_stonethrower">Stone Thrower</string>
     <string name="travelskill_footspeed">Foot Travel Speed</string>
     <string name="travelskill_foodstorage">Food Travel Storage</string>
+    <string name="title_activity_mapview">mapview</string>
 
 </resources>

@@ -80,11 +80,9 @@ public class MainScreen extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-            startActivity(new Intent(this,profilview.class));
+        Intent navigation = new Intent();
         if (id == R.id.profil) {
-            // Handle the camera action
-            //gghg
-
+            navigation = new Intent(this,profilview.class);
         } else if (id == R.id.messages) {
 
         } else if (id == R.id.party) {
@@ -98,14 +96,14 @@ public class MainScreen extends AppCompatActivity
         } else if (id == R.id.trade) {
 
         }else if (id == R.id.map) {
-
+            navigation = new Intent(this,mapview.class);
         }else if (id == R.id.forum) {
 
         }else if (id == R.id.store) {
 
         }
 
-
+        startActivity(navigation);
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

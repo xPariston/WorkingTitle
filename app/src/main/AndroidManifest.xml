@@ -13,6 +13,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".regionview"></activity>
+        <activity
+            android:name=".mapview"
+            android:label="@string/title_activity_mapview"
+            android:parentActivityName=".MainScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.worldx.MainScreen" />
+        </activity>
         <activity
             android:name=".Skillview"
             android:label="@string/title_activity_skillview"
